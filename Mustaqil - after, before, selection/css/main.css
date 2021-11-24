@@ -1,0 +1,28 @@
+*{
+    box-sizing:border-box;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+.box{
+    margin-top: 300px;
+    margin-left: 300px;
+}
+.bola{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+.uka{
+    width: 200px;
+    height:200px;
+    background-color: cadetblue;
+}
+ 8
+.uka:hover ~ .bola{
+    background-color: salmon;
+    /* border-radius: 20px; */
+}
